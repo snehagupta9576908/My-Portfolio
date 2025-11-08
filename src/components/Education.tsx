@@ -5,26 +5,33 @@ import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 const Education = () => {
   const education = [
     {
-      degree: "Master of Computer Science",
-      school: "Tech University",
-      year: "2018 - 2020",
-      description: "Specialized in Web Development and User Experience Design",
-      achievements: ["GPA: 3.9/4.0", "Dean's List", "Published research paper"]
+      degree: "Bachelor in Information Technology",
+      school: "  Dr. A P J Abdul Kalam Tech University Lucknow",
+      year: "2022 - 2026",
+      description: "Foundation in computer science and software development",
+      achievements: ["GPA: 3.0/4.0", "2xRunnerUp in Badminton"]
     },
     {
-      degree: "Bachelor of Software Engineering",
-      school: "State University",
-      year: "2014 - 2018",
-      description: "Foundation in computer science and software development",
-      achievements: ["Honors Graduate", "Student of the Year 2017", "Led coding club"]
+      degree: "Intermediate",
+      school: "U.P Board English Medium",
+      year: "2022",
+      description: "Foundation in Mathematics,Physics,Chemistry",
+      achievements:["Holds All over 2nd Rank on being Mathematics Student"]
+    }
+     ,{
+      degree: "High School",
+      school: "U.P Board English Medium",
+      year: "2020",
+      description: "Foundation in Mathematics,Physics,Chemistry",
+      achievements:["Holds All over 1st Rank on being Mathematics Student"]
     }
   ];
 
   const certifications = [
-    "AWS Certified Developer",
-    "Google UX Design Certificate",
-    "Meta Frontend Developer",
-    "Advanced React Patterns"
+    "Udemy certification-Full Stack Web  Development",
+    "Codsoft Intern - Junior Java  Developer",
+    "Google for Developers - Virtual Internship  supported India EDU Program",
+    
   ];
 
   const { ref: sectionRef, isVisible: sectionVisible } = useScrollAnimation();
