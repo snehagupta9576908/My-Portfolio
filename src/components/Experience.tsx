@@ -4,38 +4,39 @@ import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 const Experience = () => {
   const experiences = [
     {
-      title: "Senior Frontend Developer",
-      company: "Tech Company Inc.",
-      period: "2022 - Present",
-      description: "Leading frontend development team, architecting scalable React applications, and mentoring junior developers.",
+      title: "Java Full Stack Developer",
+      company: "ByteCode IT Solutions",
+      period: "2025-Ongoing",
+      description: "Started career building landing pages and small web applications by using ReactJS and JavaScript.",
       achievements: [
-        "Improved application performance by 40%",
-        "Led migration to TypeScript",
-        "Implemented CI/CD pipeline"
+        "Mastered React fundamentals",
+        "Collaborated with design team",
+        "Enhanced my skills by 50%"
       ]
     },
     {
-      title: "Frontend Developer",
-      company: "Digital Solutions Ltd.",
-      period: "2020 - 2022",
-      description: "Developed responsive web applications using React and modern JavaScript frameworks.",
+      title: "Junior Java Developer",
+      company: "CodSoft",
+      period: "July-August 2024",
+      description: "Developed responsive small applications using OOPs and modern Java .",
       achievements: [
-        "Built 15+ production applications",
-        "Reduced load time by 60%",
+        "Built 5 small Gaming & Banking System  basic applications",
+        "Developed and Debugged the code",
         "Implemented design system"
       ]
     },
     {
-      title: "Junior Developer",
-      company: "StartUp Ventures",
-      period: "2019 - 2020",
-      description: "Started career building landing pages and small web applications.",
+      title: "Google for Developers",
+      company: "Eduskills",
+      period: "April-June 2024",
+      description: "Learned  the functionality and problem solving skills-A virtual Internship Program",
+
       achievements: [
-        "Mastered React fundamentals",
-        "Collaborated with design team",
-        "Delivered projects on time"
+        "Improved logical performance ",
+            "Learn Time Management ","Good Learning experience"
       ]
     }
+    
   ];
 
   const { ref: sectionRef, isVisible: sectionVisible } = useScrollAnimation();
